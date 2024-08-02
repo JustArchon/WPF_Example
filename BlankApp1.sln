@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankApp1", "BlankApp1\BlankApp1.csproj", "{22EF40CC-77D2-4165-B06B-4D4CB9FDA31B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankApp1", "BlankApp1\BlankApp1.csproj", "{22EF40CC-77D2-4165-B06B-4D4CB9FDA31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVVM", "..\..\Users\Administrator\Documents\MyMVVM\MyMVVM\MyMVVM.csproj", "{1AB0655C-59F6-4FD5-B530-B6BF525BCFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c#_TCP_Pratice", "..\..\Users\Administrator\source\repos\TCPPratice\c#_TCP_Client\c#_TCP_Pratice\c#_TCP_Pratice.csproj", "{26D901D4-990D-4A77-821B-A7FB24FF6495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAuth", "..\..\Users\Administrator\Documents\WpfAuth\WpfAuth\WpfAuth.csproj", "{58093206-9CB2-420C-A015-FF982836C097}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WmsHmi", "..\24018_CPM_WMS\WmsHmi\WmsHmi.csproj", "{362B55B9-1D01-4AC6-B0A7-5DA9555BC2FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismUnityApp5", "..\WPF_TEST\PrismUnityApp5\PrismUnityApp5.csproj", "{99C9E82C-C594-446D-AA59-8FFBC43AD226}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlankApp2", "BlankApp2\BlankApp2.csproj", "{8E1C7235-E6B0-44C2-833B-1F03C3969A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPserverrework", "..\..\Users\Administrator\source\repos\TCPPratice\C#TCPServerRework\TCPserverrework\TCPserverrework.csproj", "{0CC160CA-8F2D-4299-B855-413E60F0785A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPratice", "..\..\Users\Administrator\source\repos\TCPPratice\SerialPratice\SerialPratice\SerialPratice.csproj", "{73D8DC6A-4C9B-41A2-8CE5-DD0248CA12FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +31,46 @@ Global
 		{22EF40CC-77D2-4165-B06B-4D4CB9FDA31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22EF40CC-77D2-4165-B06B-4D4CB9FDA31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22EF40CC-77D2-4165-B06B-4D4CB9FDA31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB0655C-59F6-4FD5-B530-B6BF525BCFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB0655C-59F6-4FD5-B530-B6BF525BCFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB0655C-59F6-4FD5-B530-B6BF525BCFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB0655C-59F6-4FD5-B530-B6BF525BCFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D901D4-990D-4A77-821B-A7FB24FF6495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D901D4-990D-4A77-821B-A7FB24FF6495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D901D4-990D-4A77-821B-A7FB24FF6495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D901D4-990D-4A77-821B-A7FB24FF6495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58093206-9CB2-420C-A015-FF982836C097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58093206-9CB2-420C-A015-FF982836C097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58093206-9CB2-420C-A015-FF982836C097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58093206-9CB2-420C-A015-FF982836C097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362B55B9-1D01-4AC6-B0A7-5DA9555BC2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362B55B9-1D01-4AC6-B0A7-5DA9555BC2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362B55B9-1D01-4AC6-B0A7-5DA9555BC2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362B55B9-1D01-4AC6-B0A7-5DA9555BC2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1C7235-E6B0-44C2-833B-1F03C3969A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1C7235-E6B0-44C2-833B-1F03C3969A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1C7235-E6B0-44C2-833B-1F03C3969A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1C7235-E6B0-44C2-833B-1F03C3969A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC160CA-8F2D-4299-B855-413E60F0785A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC160CA-8F2D-4299-B855-413E60F0785A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC160CA-8F2D-4299-B855-413E60F0785A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC160CA-8F2D-4299-B855-413E60F0785A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D8DC6A-4C9B-41A2-8CE5-DD0248CA12FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D8DC6A-4C9B-41A2-8CE5-DD0248CA12FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D8DC6A-4C9B-41A2-8CE5-DD0248CA12FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D8DC6A-4C9B-41A2-8CE5-DD0248CA12FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C4314E1-C91D-4286-97F9-3B60B4F78855}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\24018_CPM_WMS\CpmWmsShared\CpmWmsShared.projitems*{362b55b9-1d01-4ac6-b0a7-5da9555bc2fb}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

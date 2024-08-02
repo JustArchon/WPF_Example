@@ -2,6 +2,7 @@
 using Prism.Commands;
 using Prism.Mvvm;
 using System;
+using System.Windows;
 
 namespace BlankApp1.ViewModels
 {
@@ -18,6 +19,30 @@ namespace BlankApp1.ViewModels
         public DateTime FromDate { get; set; } = DateTime.Now.AddDays(-10);
         public DateTime ToDate { get; set; } = DateTime.Now;
 
+        // cmdg
+        private DelegateCommand _cmdExit;
+        public DelegateCommand CmdExit =>
+            _cmdExit ?? (_cmdExit = new DelegateCommand(ExecutecmdExit));
+
+        void ExecutecmdExit()
+        {
+            Application.Current.Shutdown();
+        }
+
+        // cmdgfull
+        private DelegateCommand<string> _fieldName;
+        public DelegateCommand<string> ss =>
+            _fieldName ?? (_fieldName = new DelegateCommand<string>(ExecuteCommandName, CanExecuteCommandName));
+
+        void ExecuteCommandName(string parameter)
+        {
+
+        }
+
+        bool CanExecuteCommandName(string parameter)
+        {
+            return true;
+        }
 
         private DelegateCommand _cmdView;
         public DelegateCommand CmdView =>

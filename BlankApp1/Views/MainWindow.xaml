@@ -15,13 +15,23 @@
             <DatePicker SelectedDate="{Binding ToDate}" Margin="5,0"/>
             <Button Content="조회" Command="{Binding CmdView}" Margin="0 0 5 0" Width="60"/>
             <Button Content="내보내기" Command="{Binding CmdView}" Width="60"/>
+            <Button Content="끝내기" Command="{Binding CmdExit}" Margin="5,0" Width="60"/>
         </StackPanel>
 
         <DataGrid Grid.Row="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="순번"/>
                 <DataGridTextColumn Header="작업번호"/>
+                <DataGridTextColumn Header="호기"/>
+                <DataGridTextColumn Header="진행상태"/>
+                <DataGridTextColumn Header="상차위치"/>
+                <DataGridTextColumn Header="버퍼1"/>
+                <DataGridTextColumn Header="버퍼2"/>
+                <DataGridTextColumn Header="버퍼3"/>
+                <DataGridTextColumn Header="하차위치"/>
+                <DataGridTextColumn Header="화물정보"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="22" Margin="0,147,0,0" Grid.Row="1" VerticalAlignment="Top" Width="525"/>
     </Grid>
 </Window>
